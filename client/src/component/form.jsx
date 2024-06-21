@@ -131,7 +131,7 @@ const EventRegistrationForm = () => {
             type="text"
             placeholder="Name of Guest"
             name="guestName"
-            value={formData.name}
+            value={formData.guestName}
             onChange={handleChange}
             className="pl-10 pr-4 py-2 shadow-md shadow-gray-500/75 rounded w-full focus:outline-none focus:border-blue-500"
             />
